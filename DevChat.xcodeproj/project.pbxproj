@@ -12,23 +12,24 @@
 		914F6EAF1DF503A700DF10B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914F6EAD1DF503A700DF10B3 /* Main.storyboard */; };
 		914F6EB11DF503A700DF10B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 914F6EB01DF503A700DF10B3 /* Assets.xcassets */; };
 		914F6EB41DF503A700DF10B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 914F6EB21DF503A700DF10B3 /* LaunchScreen.storyboard */; };
-		914F6EC01DF50BE400DF10B3 /* AVCamPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 914F6EBD1DF50BE400DF10B3 /* AVCamPreviewView.m */; };
-		914F6EC11DF50BE400DF10B3 /* AVCamCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 914F6EBF1DF50BE400DF10B3 /* AVCamCameraViewController.m */; };
+		917B5E5F1DF60818005BDC14 /* AAPLCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 917B5E5C1DF60818005BDC14 /* AAPLCameraViewController.m */; };
+		917B5E601DF60818005BDC14 /* AAPLPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 917B5E5E1DF60818005BDC14 /* AAPLPreviewView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		914F6EA61DF503A700DF10B3 /* DevChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DevChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		914F6EA91DF503A700DF10B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		914F6EAB1DF503A700DF10B3 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
+		914F6EAB1DF503A700DF10B3 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CameraVC.swift; path = DevChat/CameraVC.swift; sourceTree = "<group>"; };
 		914F6EAE1DF503A700DF10B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		914F6EB01DF503A700DF10B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		914F6EB31DF503A700DF10B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		914F6EB51DF503A700DF10B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		914F6EBB1DF50BE300DF10B3 /* DevChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DevChat-Bridging-Header.h"; sourceTree = "<group>"; };
-		914F6EBC1DF50BE400DF10B3 /* AVCamPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamPreviewView.h; sourceTree = "<group>"; };
-		914F6EBD1DF50BE400DF10B3 /* AVCamPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamPreviewView.m; sourceTree = "<group>"; };
-		914F6EBE1DF50BE400DF10B3 /* AVCamCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVCamCameraViewController.h; sourceTree = "<group>"; };
-		914F6EBF1DF50BE400DF10B3 /* AVCamCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVCamCameraViewController.m; sourceTree = "<group>"; };
+		917B5E5A1DF60818005BDC14 /* AAPLCameraVCDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLCameraVCDelegate.h; sourceTree = "<group>"; };
+		917B5E5B1DF60818005BDC14 /* AAPLCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLCameraViewController.h; sourceTree = "<group>"; };
+		917B5E5C1DF60818005BDC14 /* AAPLCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLCameraViewController.m; sourceTree = "<group>"; };
+		917B5E5D1DF60818005BDC14 /* AAPLPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLPreviewView.h; sourceTree = "<group>"; };
+		917B5E5E1DF60818005BDC14 /* AAPLPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLPreviewView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +46,7 @@
 		914F6E9D1DF503A700DF10B3 = {
 			isa = PBXGroup;
 			children = (
+				917B5E5A1DF60818005BDC14 /* AAPLCameraVCDelegate.h */,
 				914F6EC41DF50C2C00DF10B3 /* Model */,
 				914F6EC31DF50C2700DF10B3 /* View */,
 				914F6EC21DF50C2100DF10B3 /* Controller */,
@@ -64,12 +66,7 @@
 		914F6EA81DF503A700DF10B3 /* DevChat */ = {
 			isa = PBXGroup;
 			children = (
-				914F6EBC1DF50BE400DF10B3 /* AVCamPreviewView.h */,
-				914F6EBD1DF50BE400DF10B3 /* AVCamPreviewView.m */,
-				914F6EBE1DF50BE400DF10B3 /* AVCamCameraViewController.h */,
-				914F6EBF1DF50BE400DF10B3 /* AVCamCameraViewController.m */,
 				914F6EA91DF503A700DF10B3 /* AppDelegate.swift */,
-				914F6EAB1DF503A700DF10B3 /* CameraVC.swift */,
 				914F6EAD1DF503A700DF10B3 /* Main.storyboard */,
 				914F6EB01DF503A700DF10B3 /* Assets.xcassets */,
 				914F6EB21DF503A700DF10B3 /* LaunchScreen.storyboard */,
@@ -82,6 +79,9 @@
 		914F6EC21DF50C2100DF10B3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				917B5E5B1DF60818005BDC14 /* AAPLCameraViewController.h */,
+				917B5E5C1DF60818005BDC14 /* AAPLCameraViewController.m */,
+				914F6EAB1DF503A700DF10B3 /* CameraVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -89,6 +89,8 @@
 		914F6EC31DF50C2700DF10B3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				917B5E5D1DF60818005BDC14 /* AAPLPreviewView.h */,
+				917B5E5E1DF60818005BDC14 /* AAPLPreviewView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -176,8 +178,8 @@
 			files = (
 				914F6EAC1DF503A700DF10B3 /* CameraVC.swift in Sources */,
 				914F6EAA1DF503A700DF10B3 /* AppDelegate.swift in Sources */,
-				914F6EC11DF50BE400DF10B3 /* AVCamCameraViewController.m in Sources */,
-				914F6EC01DF50BE400DF10B3 /* AVCamPreviewView.m in Sources */,
+				917B5E5F1DF60818005BDC14 /* AAPLCameraViewController.m in Sources */,
+				917B5E601DF60818005BDC14 /* AAPLPreviewView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,6 +348,7 @@
 				914F6EBA1DF503A700DF10B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
