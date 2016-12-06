@@ -34,6 +34,9 @@
                             <constraint firstItem="yDv-fR-PS6" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="bar-Cm-UnS"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="previewView" destination="yDv-fR-PS6" id="pdS-Qa-hxD"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

@@ -25,6 +25,7 @@
 		914F6EB31DF503A700DF10B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		914F6EB51DF503A700DF10B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		914F6EBB1DF50BE300DF10B3 /* DevChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DevChat-Bridging-Header.h"; sourceTree = "<group>"; };
+		9155C96D1DF7474300C94DBE /* AAPLCameraVCDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLCameraVCDelegate.h; sourceTree = "<group>"; };
 		917B5E5A1DF60818005BDC14 /* AAPLCameraVCDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLCameraVCDelegate.h; sourceTree = "<group>"; };
 		917B5E5B1DF60818005BDC14 /* AAPLCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLCameraViewController.h; sourceTree = "<group>"; };
 		917B5E5C1DF60818005BDC14 /* AAPLCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLCameraViewController.m; sourceTree = "<group>"; };
@@ -71,6 +72,7 @@
 				914F6EB01DF503A700DF10B3 /* Assets.xcassets */,
 				914F6EB21DF503A700DF10B3 /* LaunchScreen.storyboard */,
 				914F6EB51DF503A700DF10B3 /* Info.plist */,
+				9155C96D1DF7474300C94DBE /* AAPLCameraVCDelegate.h */,
 				914F6EBB1DF50BE300DF10B3 /* DevChat-Bridging-Header.h */,
 			);
 			path = DevChat;
