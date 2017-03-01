@@ -13,8 +13,8 @@ class CameraVC: AAPLCameraViewController {
     @IBOutlet weak var previewView: AAPLPreviewView!
 
     override func viewDidLoad() {
+        self._previewView = previewView
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
 
 }
