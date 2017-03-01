@@ -32,6 +32,9 @@
                                     <constraint firstAttribute="width" constant="55" id="fHw-9m-KL8"/>
                                 </constraints>
                                 <state key="normal" image="createsnap_btn"/>
+                                <connections>
+                                    <action selector="recordButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WCg-49-zPa"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4LU-p4-NcQ">
                                 <rect key="frame" x="296" y="28" width="55" height="55"/>
@@ -40,6 +43,9 @@
                                     <constraint firstAttribute="height" constant="55" id="loN-st-Qma"/>
                                 </constraints>
                                 <state key="normal" image="camera_icon_snap"/>
+                                <connections>
+                                    <action selector="changeCameraButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7Rz-mc-eYE"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -55,7 +61,9 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="cameraButton" destination="4LU-p4-NcQ" id="Fe0-t0-obc"/>
                         <outlet property="previewView" destination="yDv-fR-PS6" id="pdS-Qa-hxD"/>
+                        <outlet property="recordButton" destination="ZXf-d5-YhJ" id="3mA-lb-RdS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

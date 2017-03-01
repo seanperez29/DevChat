@@ -44,10 +44,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		91209B521E6685A80028AE1A /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
 		914F6E9D1DF503A700DF10B3 = {
 			isa = PBXGroup;
 			children = (
 				917B5E5A1DF60818005BDC14 /* AAPLCameraVCDelegate.h */,
+				91209B521E6685A80028AE1A /* Protocols */,
 				914F6EC41DF50C2C00DF10B3 /* Model */,
 				914F6EC31DF50C2700DF10B3 /* View */,
 				914F6EC21DF50C2100DF10B3 /* Controller */,
